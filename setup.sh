@@ -10,6 +10,7 @@ echo "https://github.com/tonyarnold/Xcode-4-Uncrustify-Automator-Services"
 chflags nohidden ~/Library
 
 # https://gist.github.com/261662/
+# modified per http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml
 ln -sf $PWD/cocoabots-uncrustify.cfg ~/.uncrustify.cfg
 
 mkdir -p ~/Library/Services
